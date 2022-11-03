@@ -15,7 +15,7 @@ spring:
           predicates:
             - Path=/api/clients/**
         - id: ms-loan
-          uri: http://localhost:8082/
+          uri: http://localhost:8092/
           predicates:
             - Path=/api/loans/**
         - id: ms-movement
@@ -39,7 +39,7 @@ spring:
           predicates:
             - Path=/api/persontype/**
         - id: ms-account-type
-          uri: http://localhost:8088/
+          uri: http://localhost:8091/
           predicates:
             - Path=/api/accounttype/**
         - id: ms-currency-type
